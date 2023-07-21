@@ -2,37 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fdc.fandom.com%2Fwiki%2FHall_of_Justice&psig=AOvVaw010YQiEoBPHuTu2m9Oyp3V&ust=1690052542497000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjwm72-oIADFQAAAAAdAAAAABAI") center/cover no-repeat;
+    background: url("https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
   }
   
   header {
-    background-color: gold;
+    background-color: #00204a;
     color: #fff;
     padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Times New Roman", Times, serif;
   }
   
-  header .comic-title {
-    margin: 0;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 48px;
-    letter-spacing: 4px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 15px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
   }
   
   main {
     padding: 20px;
   }
   
-  #home {
-    background-color: #00204a;
-    height: 100vh;
+  .hero-section {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
   }
   
   .centered-container {
@@ -40,17 +44,14 @@ body {
   }
   
   .main-title {
-    color: #fff;
-    font-size: 60px;
-    margin-bottom: 30px;
+    font-size: 48px;
+    margin-bottom: 20px;
   }
   
-  .start-button {
-    background-color: #fff;
-    color: #00204a;
+  .subtitle {
     font-size: 24px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 40px;
   }
+  
+  /* Additional styling and animations can be added as needed */
