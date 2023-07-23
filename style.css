@@ -2,7 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
+  }
+  
+  /* Background for Home Page */
+  .hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url("c:\\Users\\joe41\\Downloads\\pexels-erik-mclean-7809123.jpg") center/cover no-repeat;
   }
   
   header {
@@ -30,15 +40,6 @@ body {
     padding: 20px;
   }
   
-  .hero-section {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-  }
-  
   .centered-container {
     text-align: center;
   }
@@ -54,4 +55,49 @@ body {
     margin-bottom: 40px;
   }
   
-  /* Additional styling and animations can be added as needed */
+  .heroes-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .tag {
+    width: 250px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tag-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .tag-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .info-section {
+    margin-top: 50px;
+  }
+  
+  .info-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section {
+    margin-top: 50px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
